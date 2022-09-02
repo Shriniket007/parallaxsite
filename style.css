@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    position: sticky;
+    top: 0px;
+}
+.navbar{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: black;
+   height: 50px;
+  
+}
+.navbar li{
+  margin: 2px 20px;
+  list-style: none;
+}
+.navbar li a{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.parallax-1{
+    background: url("images/pexels-hasan-albari-1229861.jpg") center center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.parallax-2{
+    background: url("images/pexels-pixabay-270360.jpg") center center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.parallax-3{
+    background: url("images/pexels-felix-mittermeier-956999.jpg") center center/cover;
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 250px;
+    
+   
+}
+.para{
+    background-color: antiquewhite;
+
+}
